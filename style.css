@@ -609,3 +609,34 @@ footer {
         margin: 0;
     }
 }
+
+@media (max-width:424px) {
+    .header-container h1 {
+        font-size: 26px;
+        margin-bottom: -5rem;
+    }
+
+    .header-container h3 {
+        font-size: 20px;
+    }
+
+    
+    .h2 {
+        font-size: 32px;
+        margin-bottom: 0;
+    }
+
+    .h3 {
+        font-size: 16px;
+        padding-top: 0;
+    }
+
+    .h4 {
+        font-size: 22px;
+    }
+
+    .h5 {
+        font-size: 18px;
+    }
+
+}
