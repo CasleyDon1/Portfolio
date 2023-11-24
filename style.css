@@ -529,6 +529,26 @@ footer {
     }
 }
 
+@media (max-width:1082px) {
+    
+    .header-container h1 {
+        font-size: 36px;
+        margin-bottom: 0;
+    }
+    
+    .hero-image {
+        position: absolute;
+        height: 22rem;
+        width: 22rem;
+        top: 11rem;
+        right: 7.2rem;
+        padding: 1rem;
+        overflow: hidden;
+        border-radius: 50%;
+        background: var(--color-primary);
+    }
+}
+
 @media (max-width:600px) {
     .header-container h1 {
         font-size: 36px;
